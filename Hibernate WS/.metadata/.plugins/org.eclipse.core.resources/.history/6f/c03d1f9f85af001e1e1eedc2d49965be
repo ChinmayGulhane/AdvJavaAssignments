@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  <!DOCTYPE hibernate-configuration PUBLIC 
+  "-//Hibernate/Hibernate Configuration DTD//EN" 
+  "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">-->
+<!-- Version 8 MySQL hiberante-cfg.xml example for Hibernate 5 -->
+<hibernate-mapping>
+<class name="com.demo.model.Employee" table="EmpTab">
+<id name="id">
+<generator class="assigned"></generator>
+</id>
+<property name="name" type="String"></property>
+<property name="sal" type="double"></property>
+</class>
+</hibernate-mapping>

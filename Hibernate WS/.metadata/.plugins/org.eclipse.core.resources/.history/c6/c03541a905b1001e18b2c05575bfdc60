@@ -1,0 +1,44 @@
+package com.demo.service;
+
+import java.util.List;
+
+import com.demo.model.MyUser;
+
+public class CrudServiceImpl implements CrudService{
+
+	public void addnewUser() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public MyUser getById(int uid) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public boolean removeById(int uid) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	public boolean modifyById(int uid, String unm, String street) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	public List<MyUser> sortById() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public void closeMySessionFactory() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public List<MyUser> getAllUsers() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,95 @@
+package com.demo.model;
+
+import java.util.Set;
+
+import javax.persistence.CascadeType;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.OneToMany;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="faculty01")
+public class Faculty {
+	
+	@Id
+	private int Fid;
+	private String fname;
+	private String course;
+	@OneToMany(mappedBy="f",cascade = CascadeType.ALL)
+	private Set<Employee> cset;
+	
+	
+	
+	public Faculty() {
+		super();
+	}
+
+	public Faculty(int fid, String fname, String course, Set<Employee> cset) {
+		super();
+		Fid = fid;
+		this.fname = fname;
+		this.course = course;
+		this.cset = cset;
+	}
+
+
+
+	public int getFid() {
+		return Fid;
+	}
+
+
+
+	public void setFid(int fid) {
+		Fid = fid;
+	}
+
+
+
+	public String getFname() {
+		return fname;
+	}
+
+
+
+	public void setFname(String fname) {
+		this.fname = fname;
+	}
+
+
+
+	public String getCourse() {
+		return course;
+	}
+
+
+
+	public void setCourse(String course) {
+		this.course = course;
+	}
+
+
+
+	public Set<Employee> getCset() {
+		return cset;
+	}
+
+
+
+	public void setCset(Set<Employee> cset) {
+		this.cset = cset;
+	}
+
+
+
+	@Override
+	public String toString() {
+		return "Faculty [Fid=" + Fid + ", fname=" + fname + ", course=" + course + ", cset=" + cset + "]";
+	}
+
+
+
+	
+
+}

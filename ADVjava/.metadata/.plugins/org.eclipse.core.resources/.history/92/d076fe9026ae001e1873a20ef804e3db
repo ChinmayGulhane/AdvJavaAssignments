@@ -1,0 +1,17 @@
+package com.demo.dao;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+
+public class DBConn {
+	static Connection conn=null;
+	
+	public static Connection getConn() {
+		if(conn==null) {
+			
+			DriverManager.registerDriver(new com.mysql.cj.jdbc.Driver());
+		}
+		
+	}
+	
+}

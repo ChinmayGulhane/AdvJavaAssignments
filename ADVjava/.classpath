@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="Day 2/LoginAppliaction/src"/>
+	<classpathentry kind="src" path="Day 2/MyCalculations/src"/>
+	<classpathentry kind="src" path="Day 2/MyHelloWebApp/src"/>
+	<classpathentry kind="src" path="Day 3/ProductCrudDemo/src"/>
+	<classpathentry kind="src" path="Day 3/ProductCrudeDemo2/src"/>
+	<classpathentry kind="src" path="Day 3/TaxCalculationDemo/src"/>
+	<classpathentry kind="src" path="Day 4/CookiesDemo/src"/>
+	<classpathentry kind="src" path="Day 4/ProductCrudeDemo2/src"/>
+	<classpathentry kind="src" path="Day 4/SendRedirectDemo/src"/>
+	<classpathentry kind="src" path="Day 5 -JSP/ProductOrderCart/src"/>
+	<classpathentry kind="src" path="Day1/JDBCConnectionDemo/src"/>
+	<classpathentry kind="src" path="Day2/LoginAppliaction/src"/>
+	<classpathentry kind="src" path="Day2/MyCalculations/src"/>
+	<classpathentry kind="src" path="Day2/MyHelloWebApp/src"/>
+	<classpathentry kind="src" path="Day3/ProductCrudDemo/src"/>
+	<classpathentry kind="src" path="Day3/ProductCrudeDemo2/src"/>
+	<classpathentry kind="src" path="Day3/TaxCalculationDemo/src"/>
+	<classpathentry kind="src" path="Day4/CookiesDemo/src"/>
+	<classpathentry kind="src" path="Day4/ProductCrudeDemo2/src"/>
+	<classpathentry kind="src" path="Day4/SendRedirectDemo/src"/>
+	<classpathentry kind="src" path="Day5 -JSP/ProductOrderCart/src"/>
+	<classpathentry kind="src" path="Day6/CustomTagWithAttributeDemo/src"/>
+	<classpathentry kind="src" path="Day6/JSPUseBeanDemo/src"/>
+	<classpathentry kind="src" path="Day6/JSTLCoreDemo/src"/>
+	<classpathentry kind="lib" path="Day 3/ProductCrudDemo/WebContent/WEB-INF/lib/mysql-connector-java-8.0.11.jar"/>
+	<classpathentry kind="lib" path="Day 3/ProductCrudeDemo2/WebContent/WEB-INF/lib/mysql-connector-java-8.0.11.jar"/>
+	<classpathentry kind="lib" path="Day 4/ProductCrudeDemo2/WebContent/WEB-INF/lib/mysql-connector-java-8.0.11.jar"/>
+	<classpathentry kind="lib" path="Day 5 -JSP/ProductOrderCart/WebContent/WEB-INF/lib/mysql-connector-java-8.0.11.jar"/>
+	<classpathentry kind="lib" path="Day1/mysql-connector-java-8.0.11.jar"/>
+	<classpathentry kind="lib" path="Day3/ProductCrudDemo/WebContent/WEB-INF/lib/mysql-connector-java-8.0.11.jar"/>
+	<classpathentry kind="lib" path="Day3/ProductCrudeDemo2/WebContent/WEB-INF/lib/mysql-connector-java-8.0.11.jar"/>
+	<classpathentry kind="lib" path="Day4/ProductCrudeDemo2/WebContent/WEB-INF/lib/mysql-connector-java-8.0.11.jar"/>
+	<classpathentry kind="lib" path="Day5 -JSP/ProductOrderCart/WebContent/WEB-INF/lib/mysql-connector-java-8.0.11.jar"/>
+	<classpathentry kind="lib" path="Day6/JSTLCoreDemo/WebContent/WEB-INF/lib/jstl.jar"/>
+	<classpathentry kind="lib" path="Day6/JSTLCoreDemo/WebContent/WEB-INF/lib/mysql-connector-java-8.0.11.jar"/>
+	<classpathentry kind="lib" path="Day6/JSTLCoreDemo/WebContent/WEB-INF/lib/standard.jar"/>
+	<classpathentry kind="output" path="Day 2/LoginAppliaction/build/classes"/>
+</classpath>

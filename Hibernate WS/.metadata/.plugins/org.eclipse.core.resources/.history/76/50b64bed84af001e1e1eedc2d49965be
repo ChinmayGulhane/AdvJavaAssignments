@@ -1,0 +1,19 @@
+import org.hibernate.cfg.Configuration;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import com.demo.model.Employee;
+
+
+public class EmployeeTest{
+	public static void main(String args[]) {
+		Employee e1=new Employee(1,"Tom",25000);
+		SessionFactory sf= new Configuration().configure().buildSessionFactory();
+		Session sess= sf.openSession();
+		Transaction tr=sess.beginTransaction();
+		sess.save(e1);
+		tr.commit();
+		sess.close();
+		
+	}
+}

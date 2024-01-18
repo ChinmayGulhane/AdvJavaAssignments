@@ -1,0 +1,30 @@
+package com.demo.test;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.Configuration;
+
+import com.demo.model.Course;
+import com.demo.model.Faculty;
+
+public class UserTest {
+
+	public static void main(String[] args) {
+		Course addr1 = new Course(1,"Nashik","MH");
+		Course addr2 = new Course(2,"Yavatmal","MH");
+		Faculty u1 = new Faculty(10,"Priyanka",addr1);
+		Faculty u2 = new Faculty(12,"Chinmay",addr2);
+		
+		SessionFactory sf = new Configuration().configure().buildSessionFactory();
+		Session sess = sf.openSession();
+		Transaction tr =sess.beginTransaction();
+		sess.save(addr1);
+		sess.save(addr2);
+		sess.save(u1);
+		sess.save(u2);
+		
+		tr.commit();
+		
+	}
+}

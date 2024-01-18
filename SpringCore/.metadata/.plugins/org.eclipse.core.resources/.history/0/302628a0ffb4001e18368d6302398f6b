@@ -1,0 +1,9 @@
+package com.demo.dao;
+
+import com.demo.model.Myuser;
+
+public interface LoginDao {
+
+	Myuser checkUser(String unm, String passwd);
+
+}

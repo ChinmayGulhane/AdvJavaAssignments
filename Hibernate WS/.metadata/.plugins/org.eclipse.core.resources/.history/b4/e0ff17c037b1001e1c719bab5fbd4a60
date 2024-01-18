@@ -1,0 +1,51 @@
+package com.demo.test;
+
+import java.util.List;
+
+import org.hibernate.Criteria;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.Configuration;
+import org.hibernate.criterion.Criterion;
+import org.hibernate.criterion.LogicalExpression;
+import org.hibernate.criterion.Restrictions;
+
+import com.demo.model.Product;
+
+public class TestProduct {
+
+	public static void main(String[] args) {
+		SessionFactory sf = new Configuration().configure().buildSessionFactory();
+		Session sess = sf.openSession();
+		Transaction tr = sess.beginTransaction();
+		
+		Criteria cr = sess.createCriteria(Product.class);
+		List<Product> plist = cr.list();
+		plist.forEach(System.out::println);
+		System.out.println("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+		
+		Criterion pricegt = Restrictions.gt("price",300);
+		Criterion pricest = Restrictions.lt("price", 800);
+		Criterion qtygt = Restrictions.gt("qty",4);
+		Criteria cr1 = sess.createCriteria(Product.class);
+		LogicalExpression e = Restrictions.and(pricest, qtygt);
+		cr1.add(e);
+		plist = cr1.list();
+		plist.forEach(System.out::println);
+		
+		
+		
+		
+		
+		
+		
+		
+		tr.commit();
+		sess.close();
+	
+		
+		
+	}
+
+}

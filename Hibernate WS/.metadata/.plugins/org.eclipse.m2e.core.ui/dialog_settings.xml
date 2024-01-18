@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\IET\Desktop\ADVjava\J2EE-main\Day12\AnnotationConfigDemo"/>
+			<item value="C:\Users\IET\Desktop\Hibernate WS"/>
+			<item value="C:\Users\IET\Desktop\Hibernate WS\ManyToMany"/>
+			<item value="C:\Users\IET\Desktop\Hibernate WS\CriteriaQueryDemo\src\main\java\com\demo\test\TestProduct.java"/>
+			<item value="C:\Users\IET\Desktop\Hibernate WS\HIbernateCRUD\src\main\java\com\demo\test\CrudTest.java"/>
+			<item value="C:\Users\IET\Desktop\Hibernate WS\OneToMany"/>
+			<item value="C:\Users\IET\Desktop\Hibernate WS\BirectionalOneToOne\src\main\java\com\demo\model\MyUser.java"/>
+			<item value="C:\Users\IET\Desktop\Hibernate WS\OnetoOne"/>
+			<item value="C:\Users\IET\Desktop\Hibernate WS\HIbernate\src\main\java\com\demo\model\Employee.java"/>
+			<item value="C:\Users\IET\Desktop\Hibernate WS\ MyFirstMaven"/>
+			<item value="C:\Users\IET\Desktop\Hibernate WS\MyMavenProj\pom.xml"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="Annotations"/>
+			<item value="b"/>
+			<item value="AOP"/>
+			<item value="Spring1"/>
+		</list>
+		<list key="name">
+			<item value="Annotations"/>
+			<item value="b"/>
+			<item value="AOP"/>
+			<item value="Spring1"/>
+		</list>
+		<list key="artifactId">
+			<item value="Annotations"/>
+			<item value="b"/>
+			<item value="AOP"/>
+			<item value="Spring1"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>

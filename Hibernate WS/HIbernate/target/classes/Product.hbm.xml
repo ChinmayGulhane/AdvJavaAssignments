@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  <!DOCTYPE hibernate-configuration PUBLIC 
+  "-//Hibernate/Hibernate Configuration DTD//EN" 
+  "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">-->
+<!-- Version 8 MySQL hiberante-cfg.xml example for Hibernate 5 -->
+<hibernate-mapping>
+<class name="com.demo.model.Product" table="ProTab">
+<id name="id">
+<generator class="assigned"></generator>
+</id>
+<property name="pname" type="string"></property>
+<property name="qty" type="int"></property>
+<property name="price" type="float"></property>
+</class>
+</hibernate-mapping>
